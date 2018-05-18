@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen|Pacifico");
+body {
+  font-family: "Oxygen", sans-serif;
+  background: #f0f0f4;
+}
+header {
+  background: #262626;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  color: #46bbe6;
+
+  font-family: "Pacifico", cursive;
+}
+header h5 {
+  font-family: "Oxygen", sans-serif;
+  color: #46bbe6;
+}
+.index {
+  margin-top: 60px;
+}
+.event {
+  height: 160px;
+  width: 100%;
+  box-shadow: 1px 2px 1px black;
+  border-radius: 6px;
+  background: white;
+  padding: 15px;
+  margin-top: 60px;
+}
+.favorite-list {
+  height: 500px;
+  overflow: auto;
+}
+.resto {
+  background: white;
+  margin-top: 10px;
+}
+li {
+  list-style: none;
+}
